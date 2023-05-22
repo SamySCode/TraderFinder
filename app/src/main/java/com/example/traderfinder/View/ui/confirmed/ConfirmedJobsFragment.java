@@ -36,7 +36,7 @@ public class ConfirmedJobsFragment extends Fragment {
         confirmedRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
 
         confirmedJobs = new ArrayList<>();
-        jobAdapter = new JobAdapter(getContext(), new ArrayList<>(), "customer"); // Or "tradesman", depending on the type of account
+        jobAdapter = new JobAdapter(getContext(), new ArrayList<>(), "general"); // Or "tradesman", depending on the type of account
         confirmedRecyclerView.setAdapter(jobAdapter);
 
         userId = FirebaseAuth.getInstance().getUid(); // get the logged-in user's id

@@ -62,7 +62,7 @@ public class HomeFragment extends Fragment {
 
         // Set up the RecyclerView
         recyclerViewJobs.setLayoutManager(new LinearLayoutManager(getActivity()));
-        jobAdapter = new JobAdapter(getContext(), new ArrayList<>(), "customer"); // Or "tradesman", depending on the type of account
+        jobAdapter = new JobAdapter(getContext(), new ArrayList<>(), "general"); // Or "tradesman", depending on the type of account
         recyclerViewJobs.setAdapter(jobAdapter);
 
         loadJobCards();
