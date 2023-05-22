@@ -13,35 +13,35 @@
         android:theme="@style/Theme.TraderFinder"
         tools:targetApi="31">
         <activity
-            android:name=".PaymentActivity"
+            android:name=".View.PaymentActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".TradesmanProfileDetailsActivity"
+            android:name=".View.TradesmanProfileDetailsActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".QuoteActivity"
+            android:name=".View.QuoteActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".JobDetailsActivity"
+            android:name=".View.JobDetailsActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".GeneralUserActivity"
+            android:name=".View.GeneralUserActivity"
             android:exported="false"
             android:label="@string/title_activity_general_user">
             <meta-data
@@ -54,21 +54,21 @@
             android:value="https://traderfinder-79e13-default-rtdb.europe-west1.firebasedatabase.app" />
 
         <activity
-            android:name=".TradesmanActivity"
+            android:name=".View.TradesmanActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".SignUpActivity"
+            android:name=".View.SignUpActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".LoginActivity"
+            android:name=".View.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
