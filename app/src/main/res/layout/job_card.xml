@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/job_card_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/job_card_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Job Title"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/job_card_trade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Trade"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/job_card_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Job Location"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/quote_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quote Price"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"/>
+
+        <Button
+            android:id="@+id/button_view_tradesman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Tradesman Profile"
+            android:layout_gravity="end|bottom" />
+
+        <Button
+            android:id="@+id/button_complete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Job Completed?"
+            android:layout_gravity="end|bottom"/>
+
+        <Button
+            android:id="@+id/button_payment_needed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Needed"
+            android:layout_gravity="end|bottom"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

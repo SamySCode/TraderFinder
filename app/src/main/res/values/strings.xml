@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">TraderFinder</string>
+    <string name="title_activity_general_user">GeneralUserActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_Completed">CompletedJobs</string>
+    <string name="title_Confirmed">ConfirmedJobs</string>
+    <string name="create_job">Create Job</string>
+    <string name="cancel">Cancel</string>
+    <string name="trade_prompt">Select a trade</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="trades_array">
+        <item>Plumber</item>
+        <item>Electrician</item>
+        <item>Roofer</item>
+        <item>Gas Engineer</item>
+        <item>Carpenter/Joiner</item>
+        <item>Plasterer</item>
+        <item>Bricklayer</item>
+        <item>Painter and Decorator</item>
+        <item>Landscaper</item>
+        <item>Gardener</item>
+        <item>Window and Door Installer</item>
+        <item>Heating, Ventilation, and Air Conditioning (HVAC) Engineer</item>
+        <item>Builder</item>
+        <item>Fencing</item>
+        <item>Driveway/Patio</item>
+        <item>Tree Surgeon</item>
+        <item>Boiler Repair</item>
+        <item>Heating Engineer</item>
+        <item>Handyman</item>
+        <item>Bathroom Specialist</item>
+        <item>Locksmith</item>
+        <item>Pest Control</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

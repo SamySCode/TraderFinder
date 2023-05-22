@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "89879107627",
+    "firebase_url": "https://traderfinder-79e13-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "traderfinder-79e13",
+    "storage_bucket": "traderfinder-79e13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89879107627:android:1fd472534fcab19556b26e",
+        "android_client_info": {
+          "package_name": "com.example.traderfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89879107627-l41fngs3eqt2tu39sgkq3ph479cae9ks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj344UTprvHmT2LYLyYud2IOgn2EY6L14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "89879107627-l41fngs3eqt2tu39sgkq3ph479cae9ks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
